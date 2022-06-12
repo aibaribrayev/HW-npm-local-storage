@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git": "git add . && git commit -m",
-    "push": "git push --all"
+    "push": "git add . && git commit -m", 
+    "postpush":"git push --all"
   },
   "keywords": [],
   "author": "",
