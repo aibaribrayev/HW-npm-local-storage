@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <title>MadLib</title> 
+</head>
+<body>
+    <div class="header">
+        <h1>Assignment 7</h1>
+    </div>
+
+    <div class="main">
+        <div class="themes">
+            <button class = 'mode' id = 'switch-light'>light theme</button>
+            <button class = 'mode' id = 'switch-dark'>dark theme</button>
+        </div>
+    
+        <div class="container">
+            <h3>Tom Thumb</h3>                  
+            <form action="/action_page.php" class = "input">
+                <label for="fname">Image width(px):</label>
+                <input type="text" id="w" name="w"><br>
+                <label for="lname">Image height(px):</label>
+                <input type="text" id="h" name="h"><br>
+                <label for="lname">Number of Colors:</label>
+                <input type="text" id="nclr" name="nclr"><br>
+            </form>
+            <button style id = "btn"> Get file size </button>
+            <div class="bottom-box">
+                <div class="result"></div>
+                <img class="icon" src = "icons/thumb-up.png"></img>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="https://www.facebook.com/DeafNotStupid/">Home Work Thirsday</a>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src = "index.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
